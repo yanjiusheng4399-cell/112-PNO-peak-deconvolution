@@ -1,0 +1,26 @@
+# MATLAB/editor temporary files
+*.asv
+*.m~
+*.autosave
+
+# Run logs generated while tuning the fits
+matlab_run_make_PNO*.log
+git_upload_meta/
+
+# Local scratch/reference extraction files
+Fig2_paper_extracted.jpg
+Fig3_4_paper_extracted.jpg
+Fig3_zone_boundary_*.jpg
+Fig4_paper_*.png
+Fig4_paper_HTML.png
+
+# Large local literature/reference PDFs are not needed to run the script
+*.pdf
+
+# Miscellaneous local data not used by the final Sigma workflow
+demo.xlsx
+XAS.csv
+XRD.csv
+Fig3_undamped_energy.txt
+PNO_*_Pi_Diamond.csv
+tutorial_nickelate_fit_J1J2_threepaths_only_v2.m
